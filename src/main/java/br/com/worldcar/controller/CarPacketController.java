@@ -9,14 +9,14 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RestController;
 
 import br.com.worldcar.packet.ArCondicionado;
 import br.com.worldcar.packet.ComponenteCarro;
 import br.com.worldcar.packet.CarroBase;
 import br.com.worldcar.packet.SensorRe;
 
-@Component
+@RestController
 @Path("/carro")
 public class CarPacketController {
 
